@@ -1,47 +1,45 @@
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  margin: 0;
-  line-height: 1.6;
-  background: #f8f9fa;
-  color: #111;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Futures</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Hero Section -->
+  <header>
+    <div class="container">
+      <h1>Shaping Tomorrow’s Culture for Measurable Growth</h1>
+      <p>Empowering brands with creator‑driven strategy and platform‑first insight to turn cultural relevance into business outcomes.</p>
+    </div>
+  </header>
 
-.hero {
-  background: #111;
-  color: #fff;
-  padding: 4rem 2rem;
-  text-align: center;
-}
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Social Futures</h2>
+      <p>At Social Futures, I help brands thrive where <strong>culture, community, and commerce intersect</strong>. By combining deep platform expertise with creator‑led strategies and forward‑thinking insights, I support organisations in navigating today’s rapidly evolving social landscape — and turning that cultural momentum into <strong>measurable growth</strong>.</p>
+      <p>Whether you’re launching products, building communities, or innovating in social commerce, I help you make culturally relevant decisions that deliver commercial impact.</p>
+    </div>
+  </section>
 
-.subtitle {
-  max-width: 720px;
-  margin: 1rem auto 0;
-  font-size: 1.1rem;
-  opacity: 0.85;
-}
+  <!-- How I Work Section -->
+  <section id="how-i-work">
+    <div class="container">
+      <h2>How I Work</h2>
+      <ul>
+        <li><strong>Creator‑Led Strategy:</strong> Designing frameworks that leverage creator influence to drive engagement, trust, and growth.</li>
+        <li><strong>Platform‑First Thinking:</strong> Prioritising social platforms as strategic channels for discovery, community, and commerce.</li>
+        <li><strong>Future‑Focused Insight:</strong> Anticipating trends so your brand stays ahead — not behind — in a shifting cultural landscape.</li>
+      </ul>
+    </div>
+  </section>
 
-.section {
-  padding: 3rem 2rem;
-  max-width: 900px;
-  margin: auto;
-}
-
-.section.dark {
-  background: #111;
-  color: #fff;
-}
-
-h1, h2, h3 {
-  line-height: 1.25;
-}
-
-ul {
-  padding-left: 1.2rem;
-}
-
-footer {
-  text-align: center;
-  padding: 2rem;
-  background: #111;
-  color: #fff;
-}
+  <!-- Social Landscape Section -->
+  <section id="social-landscape">
+    <div class="container">
+      <h2>The Social Landscape in 2026</h2>
+      <p>Social media is no longer just a channel — it’s the <strong>cultural heartbeat of our digital lives</strong>. It now eclipses traditional media in shaping trends, redefining trust, and driving purchase behaviour.</p>
+      <ul>
+        <li>Platforms like TikTok, Instagram, and YouTube dominate daily engagement
