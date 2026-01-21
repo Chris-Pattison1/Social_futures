@@ -1,17 +1,11 @@
-/* ===========================
-   Root Variables (for easy color changes)
-=========================== */
 :root {
-  --primary-color: #1B3B6F;       /* Deep Blue */
-  --secondary-color: #3A9D65;     /* Muted Green */
-  --accent-color: #2E8B57;        /* Hover/Highlight */
-  --background-color: #F5FAFA;    /* Light Background */
-  --text-color: #222222;          /* Main Text */
+  --primary-color: #1B3B6F;
+  --secondary-color: #3A9D65;
+  --accent-color: #2E8B57;
+  --background-color: #F5FAFA;
+  --text-color: #222222;
 }
 
-/* ===========================
-   Global Styles
-=========================== */
 body {
   margin: 0;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -20,67 +14,12 @@ body {
   line-height: 1.6;
 }
 
-a {
-  color: var(--secondary-color);
-  text-decoration: none;
-}
+a { color: var(--secondary-color); }
+a:hover { color: var(--accent-color); }
 
-a:hover {
-  color: var(--accent-color);
-}
+ul { list-style: disc inside; margin: 1em 0; padding-left: 0; }
+li { margin-bottom: 0.5em; }
 
-/* ===========================
-   Header / Hero Section
-=========================== */
-header {
-  background-color: var(--primary-color);
-  color: #ffffff;
-  padding: 80px 20px;
-  text-align: center;
-}
-
-header h1 {
-  font-size: 2.8em;
-  margin-bottom: 0.5em;
-}
-
-header p {
-  font-size: 1.3em;
-}
-
-/* ===========================
-   Sections
-=========================== */
-section {
-  padding: 60px 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-section h2 {
-  color: var(--primary-color);
-  font-size: 2em;
-  margin-bottom: 0.5em;
-}
-
-section p {
-  font-size: 1.1em;
-  margin-bottom: 1em;
-}
-
-ul {
-  list-style: disc inside;
-  margin: 1em 0;
-  padding-left: 0;
-}
-
-li {
-  margin-bottom: 0.5em;
-}
-
-/* ===========================
-   Buttons
-=========================== */
 button, .btn {
   background-color: var(--secondary-color);
   color: #fff;
@@ -91,14 +30,8 @@ button, .btn {
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
+button:hover, .btn:hover { background-color: var(--accent-color); }
 
-button:hover, .btn:hover {
-  background-color: var(--accent-color);
-}
-
-/* ===========================
-   Footer
-=========================== */
 footer {
   background-color: var(--primary-color);
   color: #fff;
