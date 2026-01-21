@@ -1,45 +1,108 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Social Futures</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Header / Hero Section -->
-  <header>
-    <div class="container">
-      <h1>Shaping Tomorrow’s Culture for Measurable Growth</h1>
-      <p>Empowering brands with creator‑driven strategy and platform‑first insight to turn cultural relevance into business outcomes.</p>
-    </div>
-  </header>
+/* ===========================
+   Root Variables (for easy color changes)
+=========================== */
+:root {
+  --primary-color: #1B3B6F;       /* Deep Blue */
+  --secondary-color: #3A9D65;     /* Muted Green */
+  --accent-color: #2E8B57;        /* Hover/Highlight */
+  --background-color: #F5FAFA;    /* Light Background */
+  --text-color: #222222;          /* Main Text */
+}
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="container">
-      <h2>About Social Futures</h2>
-      <p>At Social Futures, I help brands thrive where <strong>culture, community, and commerce intersect</strong>. By combining deep platform expertise with creator‑led strategies and forward‑thinking insights, I support organisations in navigating today’s rapidly evolving social landscape — and turning that cultural momentum into <strong>measurable growth</strong>.</p>
-      <p>Whether you’re launching products, building communities, or innovating in social commerce, I help you make culturally relevant decisions that deliver commercial impact.</p>
-    </div>
-  </section>
+/* ===========================
+   Global Styles
+=========================== */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
 
-  <!-- How I Work Section -->
-  <section id="how-i-work">
-    <div class="container">
-      <h2>How I Work</h2>
-      <ul>
-        <li><strong>Creator‑Led Strategy:</strong> Designing frameworks that leverage creator influence to drive engagement, trust, and growth.</li>
-        <li><strong>Platform‑First Thinking:</strong> Prioritising social platforms as strategic channels for discovery, community, and commerce.</li>
-        <li><strong>Future‑Focused Insight:</strong> Anticipating trends so your brand stays ahead — not behind — in a shifting cultural landscape.</li>
-      </ul>
-    </div>
-  </section>
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
 
-  <!-- Social Landscape Section -->
-  <section id="social-landscape">
-    <div class="container">
-      <h2>The Social Landscape in 2026</h2>
-      <p>Social media is no longer just a channel — it’s the <strong>cultural heartbeat of our digital lives</strong>. It now eclipses traditional media in shaping trends, redefining trust, and driving purchase behaviour.</p>
-      <ul>
-        <li>Platforms like TikTok, Instagram, and YouTube dominate daily engagement
+a:hover {
+  color: var(--accent-color);
+}
+
+/* ===========================
+   Header / Hero Section
+=========================== */
+header {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.8em;
+  margin-bottom: 0.5em;
+}
+
+header p {
+  font-size: 1.3em;
+}
+
+/* ===========================
+   Sections
+=========================== */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section h2 {
+  color: var(--primary-color);
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+section p {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style: disc inside;
+  margin: 1em 0;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* ===========================
+   Buttons
+=========================== */
+button, .btn {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--accent-color);
+}
+
+/* ===========================
+   Footer
+=========================== */
+footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9em;
+}
