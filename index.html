@@ -5,13 +5,111 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Social Futures</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Navbar styles */
+    nav {
+      position: fixed;
+      width: 100%;
+      background-color: var(--primary-color);
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--secondary-color);
+    }
+
+    /* Add padding to sections to account for fixed navbar */
+    section {
+      padding-top: 80px;
+      padding-bottom: 60px;
+    }
+
+    /* Alternating background colors for sections */
+    #about, #social-landscape, #contact {
+      background-color: #F5FAFA;
+    }
+
+    #how-i-work, #sectors {
+      background-color: #e0f0eb; /* subtle green tint */
+    }
+
+    /* Container for consistent width */
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Section headings */
+    section h2 {
+      margin-bottom: 20px;
+    }
+
+    /* CTA Button Style */
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: var(--secondary-color);
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: var(--accent-color);
+    }
+
+    /* Hero header adjustments */
+    header {
+      padding: 120px 20px 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+    header p {
+      font-size: 1.4em;
+    }
+  </style>
 </head>
 <body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#how-i-work">How I Work</a>
+    <a href="#social-landscape">Landscape</a>
+    <a href="#sectors">Sectors</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
   <!-- Header / Hero Section -->
   <header>
     <div class="container">
       <h1>Shaping Tomorrow’s Culture for Measurable Growth</h1>
       <p>Empowering brands with creator‑driven strategy and platform‑first insight to turn cultural relevance into business outcomes.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
     </div>
   </header>
 
@@ -85,8 +183,18 @@
     </div>
   </section>
 
-  <!-- Contact / CTA Section -->
+  <!-- Contact Section -->
   <section id="contact">
     <div class="container">
       <h2>Let’s Talk</h2>
-      <p>If you’re ready to unlock cultural relevance and turn it into real business growth, <a href="mailto:youremail@example.com">get in touch</a>.</p>
+      <p>If you’re ready to unlock cultural relevance and turn it into real business growth, <a href="mailto:youremail@example.com" class="btn">Get in Touch</a>.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 | Social Futures</p>
+  </footer>
+
+</body>
+</html>
